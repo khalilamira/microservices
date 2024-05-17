@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV: Add BankAccount Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/tn/amira/accountservice/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/tn/amira/accountservice/AccountServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/tn/amira/accountservice/web/AccountRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/tn/amira/accountservice/web/AccountRestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,9 +150,22 @@
       <workItem from="1708886664495" duration="7401000" />
       <workItem from="1710335286382" duration="571000" />
     </task>
+    <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
+      <option name="closed" value="true" />
+      <created>1714018086024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714018086024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DEV: Add BankAccount Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEV: Add BankAccount Class" />
   </component>
 </project>
