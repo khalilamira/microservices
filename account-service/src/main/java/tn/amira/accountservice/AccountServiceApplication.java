@@ -3,6 +3,7 @@ package tn.amira.accountservice;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import tn.amira.accountservice.dtos.AccountType;
 import tn.amira.accountservice.entities.BankAccount;
@@ -12,6 +13,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @SpringBootApplication
+@EnableFeignClients
 public class AccountServiceApplication {
 
     public static void main(String[] args) {
