@@ -9,6 +9,8 @@ services:
       - '8761'
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:8761/actuator/health" ]
+      interval: 10s
+
   bank-config-service:
     build: ./config-service
     container_name: bank-config-service
@@ -16,10 +18,12 @@ services:
       - '9999:9999'
     expose:
       - '9999'
+    environment:
+      - DISCOVERY_SERVICE_URL=http://bank-discovery-service:8761/eureka
     depends_on:
-      - bank-discovery-service
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8888/actuator/health"]
+      bank-discovery-service:
+        condition: service_healthy
+
 
 #  bank-customer-service:
 #    build: ./customer-service
