@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV_FRONT: consommation api custommers httpclient">
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV_FRONT: consomation web service get accounts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/accounts/accounts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/accounts/accounts.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/accounts/accounts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/accounts/accounts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +230,7 @@
       <workItem from="1710335286382" duration="571000" />
       <workItem from="1724076684828" duration="89000" />
       <workItem from="1724126306045" duration="319000" />
-      <workItem from="1724127123976" duration="3580000" />
+      <workItem from="1724127123976" duration="5749000" />
     </task>
     <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
       <option name="closed" value="true" />
@@ -417,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724131255325</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="DEV_FRONT: consomation web service get accounts">
+      <option name="closed" value="true" />
+      <created>1724131891272</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724131891272</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +450,8 @@
     <MESSAGE value="DEV_FRONT: les routes standlone" />
     <MESSAGE value="DEV_FRONT_BACK: autorization cors dans application.yml" />
     <MESSAGE value="DEV_FRONT: consommation api custommers httpclient" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEV_FRONT: consommation api custommers httpclient" />
+    <MESSAGE value="DEV_FRONT: consomation web service get accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEV_FRONT: consomation web service get accounts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

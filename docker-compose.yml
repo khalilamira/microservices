@@ -69,3 +69,11 @@ services:
     environment:
       - DISCOVERY_SERVICE_URL=http://bank-discovery-service:8761/eureka
       - CONFIG_SERVER_URL=http://bank-config-service:8888/
+
+  front-send-angular:
+    build: ./angular-front-end
+    container_name: front-send-angular
+    ports:
+      - '80:80'
+    expose:
+      - '80'
