@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV_FRONT: creation projet front-end">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV_FRONT_BACK: autorization cors dans application.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-front-end/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/customers/customers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/customers/customers.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-front-end/src/app/customers/customers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-front-end/src/app/customers/customers.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -234,7 +231,7 @@
       <workItem from="1710335286382" duration="571000" />
       <workItem from="1724076684828" duration="89000" />
       <workItem from="1724126306045" duration="319000" />
-      <workItem from="1724127123976" duration="490000" />
+      <workItem from="1724127123976" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
       <option name="closed" value="true" />
@@ -396,7 +393,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724075534829</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="DEV_FRONT: les routes standlone">
+      <option name="closed" value="true" />
+      <created>1724127783319</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1724127783319</updated>
+    </task>
+    <task id="LOCAL-00022" summary="DEV_FRONT_BACK: autorization cors dans application.yml">
+      <option name="closed" value="true" />
+      <created>1724130683381</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724130683381</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +432,9 @@
     <MESSAGE value="DEV: delete password application.properties" />
     <MESSAGE value="DEV: Dockerize les microservices account et custommer" />
     <MESSAGE value="DEV_FRONT: creation projet front-end" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEV_FRONT: creation projet front-end" />
+    <MESSAGE value="DEV_FRONT: les routes standlone" />
+    <MESSAGE value="DEV_FRONT_BACK: autorization cors dans application.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEV_FRONT_BACK: autorization cors dans application.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
