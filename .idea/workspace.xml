@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="DEV_FRONT: consomation web service get accounts">
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="FEAT(JAD-01) : configuration des logs sur gateway service">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/config/GlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +38,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -45,11 +54,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountServiceApplication.executor": "Run",
+    "Application.ConfigServiceApplication.executor": "Run",
     "Application.CustomerServiceApplication.executor": "Run",
+    "Application.DiscoveryServiceApplication.executor": "Run",
+    "Application.GatewayServiceApplication.executor": "Run",
+    "Maven.customer-service [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.AccountServiceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
+    "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -87,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConfigServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
     <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.amira.accountservice.AccountServiceApplication" />
       <module name="account-service" />
@@ -202,9 +223,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerServiceApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
         <item itemvalue="Application.AccountServiceApplication" />
-        <item itemvalue="Application.CustomerServiceApplication" />
         <item itemvalue="Application.GatewayServiceApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
       </list>
@@ -213,8 +234,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
       </set>
     </attachedChunks>
   </component>
@@ -230,7 +251,17 @@
       <workItem from="1710335286382" duration="571000" />
       <workItem from="1724076684828" duration="89000" />
       <workItem from="1724126306045" duration="319000" />
-      <workItem from="1724127123976" duration="5749000" />
+      <workItem from="1724127123976" duration="7058000" />
+      <workItem from="1724215570752" duration="1180000" />
+      <workItem from="1729289724250" duration="25000" />
+      <workItem from="1729697029242" duration="3000" />
+      <workItem from="1741554189378" duration="1698000" />
+      <workItem from="1742113820859" duration="482000" />
+      <workItem from="1745777160619" duration="2111000" />
+      <workItem from="1745864483999" duration="2685000" />
+      <workItem from="1745904108046" duration="60000" />
+      <workItem from="1760728571818" duration="1667000" />
+      <workItem from="1760886041003" duration="6673000" />
     </task>
     <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
       <option name="closed" value="true" />
@@ -424,11 +455,38 @@
       <option name="project" value="LOCAL" />
       <updated>1724131891272</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="DEV-FRONT-DOCKER: configuration dockerfile front">
+      <option name="closed" value="true" />
+      <created>1724162972437</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162972437</updated>
+    </task>
+    <task id="LOCAL-00026" summary="FEAT(JAD-01) : configuration des logs sur gateway service">
+      <option name="closed" value="true" />
+      <created>1760892174309</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1760892174309</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DEV: Add BankAccount Class" />
@@ -451,7 +509,9 @@
     <MESSAGE value="DEV_FRONT_BACK: autorization cors dans application.yml" />
     <MESSAGE value="DEV_FRONT: consommation api custommers httpclient" />
     <MESSAGE value="DEV_FRONT: consomation web service get accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEV_FRONT: consomation web service get accounts" />
+    <MESSAGE value="DEV-FRONT-DOCKER: configuration dockerfile front" />
+    <MESSAGE value="FEAT(JAD-01) : configuration des logs sur gateway service" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT(JAD-01) : configuration des logs sur gateway service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
