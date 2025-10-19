@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="FEAT(JAD-01) : configuration des logs sur gateway service">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="FEAT(JAD-01) : configuration des logs sur toutes kes services">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/config/GlobalConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/account-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/account-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/config-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/config-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/discovery-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/discovery-service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/gateway-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway-service.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="main" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -71,7 +71,7 @@
     "Spring Boot.AccountServiceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "JAD-02",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/macbook/Desktop/MED-YOUSSFI/bank-account-app-microservice/gateway-service",
@@ -261,7 +261,7 @@
       <workItem from="1745864483999" duration="2685000" />
       <workItem from="1745904108046" duration="60000" />
       <workItem from="1760728571818" duration="1667000" />
-      <workItem from="1760886041003" duration="6673000" />
+      <workItem from="1760886041003" duration="7364000" />
     </task>
     <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
       <option name="closed" value="true" />
@@ -471,7 +471,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760892174309</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="FEAT(JAD-01) : configuration des logs sur toutes kes services">
+      <option name="closed" value="true" />
+      <created>1760904533011</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1760904533011</updated>
+    </task>
+    <task id="LOCAL-00028" summary="FEAT(JAD-01) : configuration des logs sur toutes kes services">
+      <option name="closed" value="true" />
+      <created>1760904552663</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1760904552663</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +498,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="JAD-02" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -511,7 +539,8 @@
     <MESSAGE value="DEV_FRONT: consomation web service get accounts" />
     <MESSAGE value="DEV-FRONT-DOCKER: configuration dockerfile front" />
     <MESSAGE value="FEAT(JAD-01) : configuration des logs sur gateway service" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT(JAD-01) : configuration des logs sur gateway service" />
+    <MESSAGE value="FEAT(JAD-01) : configuration des logs sur toutes kes services" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT(JAD-01) : configuration des logs sur toutes kes services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
