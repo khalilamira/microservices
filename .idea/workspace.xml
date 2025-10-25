@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="FEAT(JAD-01) : configuration des logs sur toutes kes services">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bace92de-2a23-4aca-abfb-6aa92b78e3ce" name="Changes" comment="FEAT(JAD-02) : config git">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/tn/amira/customerservice/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/account-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/account-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/config-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/config-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/discovery-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/discovery-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gateway-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gateway-service.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_COMMON_BRANCH" value="main" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -71,7 +69,7 @@
     "Spring Boot.AccountServiceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
-    "git-widget-placeholder": "JAD-02",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/macbook/Desktop/MED-YOUSSFI/bank-account-app-microservice/gateway-service",
@@ -108,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CustomerServiceApplication">
     <configuration name="AccountServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.amira.accountservice.AccountServiceApplication" />
       <module name="account-service" />
@@ -224,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomerServiceApplication" />
-        <item itemvalue="Application.ConfigServiceApplication" />
-        <item itemvalue="Application.AccountServiceApplication" />
         <item itemvalue="Application.GatewayServiceApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
+        <item itemvalue="Application.AccountServiceApplication" />
+        <item itemvalue="Application.ConfigServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +260,9 @@
       <workItem from="1745904108046" duration="60000" />
       <workItem from="1760728571818" duration="1667000" />
       <workItem from="1760886041003" duration="7364000" />
+      <workItem from="1760994198460" duration="436000" />
+      <workItem from="1761193684575" duration="2236000" />
+      <workItem from="1761421491531" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="DEV: Add BankAccount Class">
       <option name="closed" value="true" />
@@ -498,19 +499,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="JAD-02" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
