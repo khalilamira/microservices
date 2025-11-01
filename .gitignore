@@ -43,3 +43,24 @@ build/
 logs/
 *.log
 *.log.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+*.meta
+
+# Fichiers de build
+target/
+build/
+
+# Logs
+*.log
+
+# Configuration spécifique machine
+*.swp
+.DS_Store
+
+workspace.xml
